@@ -1,4 +1,4 @@
-package co.finflux.openapi.auth.auth
+package co.finflux.openapi.self.auth
 
 
 import java.io.IOException

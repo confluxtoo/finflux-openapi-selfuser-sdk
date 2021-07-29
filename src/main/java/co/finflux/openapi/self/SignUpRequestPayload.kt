@@ -44,7 +44,7 @@ data class SignUpRequestPayload (
     val mobileNumber: kotlin.String,
     /* password associated with the user */
     @Json(name = "password")
-    val password: kotlin.String,
+    val password: kotlin.String? = null,
     /* Name of the organization */
     @Json(name = "organizationName")
     val organizationName: kotlin.String,

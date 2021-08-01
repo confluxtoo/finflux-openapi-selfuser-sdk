@@ -20,7 +20,7 @@ import com.squareup.moshi.Json
  */
 
 data class SignUpOTPResponsePayload (
-    @Json(name = "resourceId")
-    val resourceId: kotlin.Long? = null
+    @Json(name = "resourceIdentifier")
+    val resourceIdentifier: kotlin.Long? = null
 )
 
